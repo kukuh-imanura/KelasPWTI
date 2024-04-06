@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#tentang, #pengalaman, #project, #skills, #pendidikan, #kontak {
+  height: 500px;
+}
+
+#navbar {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  position: sticky;
+  top: 0;
+}
+
+#tentang {
+  background-color: aliceblue;
+  padding: 100px;
+}
+
+#pengalaman {
+  background-color: burlywood;
+  padding: 100px;
+}
+
+#project {
+  background-color: lightblue;
+  padding: 100px;
+}
+
+#skills {
+  background-color: aliceblue;
+  padding: 100px;
+}
+
+#pendidikan {
+  background-color: burlywood;
+  padding: 100px;
+}
+
+#kontak {
+  background-color: lightblue;
+  padding: 100px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+<body>
+
+  <form>
+    <label for="nama">Nama : </label>
+    <input id="nama" type="text">
+    <br><br>
+
+    <label for="pass">Password : </label>
+    <input type="password" id="pass">
+    <br><br>
+
+    <label for="alamat">Alamat : </label>
+    <input id="alamat" type="text">
+    <br><br>
+
+    <label for="tgl">Tanggal Lahir : </label>
+    <input id="tgl" type="date">
+    <br><br>
+
+    <!-- CARA 1 -->
+    <label for="jk">Jenis Kelamin : </label>
+    <br>
+    <input type="radio" name="njk" id="jk"> Laki-laki
+    <br>
+    <input type="radio" name="njk" id="jk"> Perempuan
+    <br><br>
+
+    <!-- CARA 2 -->
+    <label for="jk2">Jenis Kelamin : </label>
+    <select name="sjk" id="jk2">
+      <option value="L">Laki-laki</option>
+      <option value="P">Perempuan</option>
+    </select>
+    <br><br>
+
+    <!-- CHECK BOX -->
+    <label for="cb">Checkbox</label>
+    <br>
+    <input type="checkbox" name="ncb" id="cb">1
+    <br>
+    <input type="checkbox" name="ncb" id="cb">2
+    <br>
+    <input type="checkbox" name="ncb" id="cb">3
+    <br><br>
+
+    <input type="submit" value="Tombol Kirim">
+    <input type="reset" value="Tombol Hapus">
+
+  </form>
+  
+</body>
+</html>
