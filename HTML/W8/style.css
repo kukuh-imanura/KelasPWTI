@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#navbar {
+  background-color: rgba(219, 128, 184, 0.5);
+  position: sticky;
+  top: 0;
+  padding: 20px 50px;
+}
+#about, #edu, #exp, #skill{
+  background-color: bisque;
+  padding: 100px 50px;
+}
+#skill div {
+  border: 1px solid black;
+  display: inline-block;
+
+}
+footer {
+  background-color: burlywood;
+  padding: 50px;
+}
